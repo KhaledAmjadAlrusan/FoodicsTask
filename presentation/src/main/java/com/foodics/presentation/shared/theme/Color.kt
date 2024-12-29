@@ -1,4 +1,4 @@
-package com.foodics.foodicstask.ui.theme
+package com.foodics.presentation.shared.theme
 
 import androidx.compose.ui.graphics.Color
 
