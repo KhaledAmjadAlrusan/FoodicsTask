@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="empty_screen">This Screen is empty for now!</string>
+    <string name="no_data_found">No data found!</string>
+    <string name="search_not_found">Search not found</string>
+    <string name="error_occurred">Something went wrong,\nPlease try again</string>
+    <string name="oh_no">Oh no!</string>
+    <string name="search_for_product">Search for any product</string>
+    <string name="checkout">Checkout</string>
+    <string name="sar">SAR</string>
+</resources>
