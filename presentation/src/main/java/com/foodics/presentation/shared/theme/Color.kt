@@ -2,10 +2,16 @@ package com.foodics.presentation.shared.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+object FoodicsColor {
+    val primaryColor = Color(0xFF5D06C9)
+    val disabledColor = Color(0xFFBBBBBB)
+    val background = Color(0xFFF5F5F5)
+    val white = Color(0xFFFFFFFF)
+    val error = Color(0xFFCE1335)
+    val errorContainer = Color(0xFFFADBE1)
+    val border = Color(0xFFE0E0E0)
+    val textColor = Color(0xFF282828)
+    val iconColor = Color(0xFF777777)
+    val transparent = Color(0x00000000)
+}

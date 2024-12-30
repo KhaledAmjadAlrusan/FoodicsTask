@@ -32,7 +32,7 @@ android {
         jvmTarget = "11"
     }
     buildFeatures {
-        compose =  true
+        compose = true
     }
 }
 
@@ -55,7 +55,7 @@ dependencies {
 
 
 
-
+    implementation(libs.androidx.navigation.compose)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.ui.graphics)
@@ -64,8 +64,8 @@ dependencies {
 
 
     // Koin
-    implementation (libs.koin.android)
-    implementation (libs.koin.androidx.compose)
+    implementation(libs.koin.android)
+    implementation(libs.koin.androidx.compose)
 
     // Coil
     implementation(libs.coil.compose)
